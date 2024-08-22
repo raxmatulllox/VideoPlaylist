@@ -11,7 +11,7 @@
 <div class="container">
     {% for i in video %}
         <div class="video-con">
-            <a href="{% url 'playlist:detail' slug=i.slug %}"><h3 class="text-center mt-2 mb-2 video-name">{{ i.name }}</h3></a>
+            <a class="video-name" href="{% url 'playlist:detail' slug=i.slug %}">{{ i.name }}</a>
             <video class="embed-responsive embed-responsive-16by9 videoclass" controls="controls">
                 <source class="video-class" src="{{ i.video.url }}" type="video/mp4">
             </video>
