@@ -24,9 +24,15 @@ body {
     text-decoration: none;
     color: aliceblue;
 }
+
+a {
+    text-decoration: none;
+}
+
 .first {
     margin-left: 50px;
 }
+
 .last {
     margin-right: 60px;
 }
@@ -42,7 +48,11 @@ body {
 }
 
 .video-name {
-    color: rgb(173, 171, 188);
+    text-decoration: none;
+    color: rgb(187, 187, 188);
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
 }
 
 .container {
